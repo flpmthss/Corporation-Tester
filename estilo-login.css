@@ -1,0 +1,28 @@
+@charset "UTF-08";
+
+body{
+    background-color: rgba(0,0,0,.7);
+}
+
+#fundo{
+    display: block;
+    position: relative;
+    background-color: white;
+    border-radius: 300px;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,.5);
+    width: 310px;
+    height: 300px;
+    margin: 14% auto;
+}
+
+#fundo-tela p{
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin: 60px 0px 0px 50px;
+}
+
+#fundo-tela .login, .senha, .botao{
+    margin-top: 6px;
+    border-radius: 6px;
+}
