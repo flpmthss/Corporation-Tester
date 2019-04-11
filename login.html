@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" type="text/css" href="estilo-login.css" />
 </head>
+
 <body>
-    <div id="fundo">
-        <form id="fundo-tela">
-            <p>Login ou E-mail: <br>
-            <input type="text" size="24" maxlength="28" placeholder="Digite aqui o e-mail ou login" class="login" /> <br><br>
-            Senha: <br>
-            <input type="text" size="16" maxlength="16" placeholder="Digite aqui sua senha" class="senha" /> <br><br>
-            <input type="button" value="Entrar" class="botao"> <br><br>
-            Criar conta</p>
-        </form>
+    <div id="fundo-escuro">
+        <div id="fundo">
+            <form id="fundo-tela">
+                <a href="#" class="fechar" onclick="document.getElementById('fundo').style.display='none';">X</a>
+                <p>Login ou E-mail: <br>
+                    <input type="text" size="24" maxlength="28" placeholder="Digite aqui o e-mail ou login"
+                        class="login" /> <br><br>
+                    Senha: <br>
+                    <input type="text" size="16" maxlength="16" placeholder="Digite aqui sua senha" class="senha" />
+                    <br><br>
+                    <input type="button" value="Entrar" class="botao"> <br><br><br>
+                    <a href="" class="link">Criar conta</a></p>
+            </form>
+        </div>
     </div>
+
+    <div id="login">
+        <a href="#" class="abrir" onclick="document.getElementById('fundo').style.display='block';"><h1>LOGIN</h1></a>
+    </div>
+
+<script type="text/javascript" src="animacao.js"></script>
+
 </body>
+
 </html>
